@@ -19,11 +19,13 @@
 
 #searchbox {
   position: absolute;
+  /*top: 500%
+  right: 60%;*/
   bottom: 7000%;
-  left: 15%;
+  /*left: 50%;*/
 }
 
-/*#search,
+#search,
 
 #submit {
     float: left;
@@ -37,7 +39,12 @@
     font: normal 13px 'trebuchet MS', arial, helvetica;
     border-radius: 50px 3px 3px 50px;
                
-}*/
+}
+
+
+#right {
+  float: right;
+}
 
 .btn-custom {
   background-color: hsl(0, 0%, 14%) !important;
