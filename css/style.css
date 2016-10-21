@@ -3,6 +3,61 @@
   height: 50px;
 }
 
+.navbar-right {
+  padding-right: 100px;
+}
+
+.navbar-right > li > a {
+   color: black; /*Change active text color here*/
+    }
+
+    .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: orange;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+#bs-example-navbar-collapse-1  {
+  width: 100%; /* Spans the width of the page */
+  height: 100px; 
+  margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+  z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+  position: absolute; 
+  background-color: white;
+  opacity:0.7;  /*Make nav bar transparent to a degree */
+}
+
+.navbar-nav > li > a {
+   color: black; /*Change active text color here*/
+    }
+
 #background {
   position: relative;
   width: 100%;
@@ -41,6 +96,40 @@
                
 }
 
+#search1 {
+  padding-right: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  font-size: 30px
+}
+
+hr {
+    background-color: orange !important;
+    color: dimgrey !important;
+    height: 5px !important;
+    width: 1000px !important;
+}
+
+.glyphicon.glyphicon-briefcase {
+  font-size: 40px;
+}
+
+.glyphicon.glyphicon-th {
+  font-size: 40px;
+}
+
+.glyphicon.glyphicon-knight {
+  font-size: 40px;
+}
+
+.glyphicon.glyphicon-ok-sign {
+  color: green;
+  font-size: 30px;
+}
+
+.glyphicon.glyphicon-phone-alt {
+  font-size: 30px;
+}
 
 #right {
   float: right;
