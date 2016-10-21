@@ -11,6 +11,10 @@
    color: black; /*Change active text color here*/
     }
 
+.badge {
+  color: orange;
+}
+
     .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -66,11 +70,22 @@
 
 #headText {
   position: absolute;
-  top: 30%;
-  right: 35%;
-  bottom: 30%;
-  left: 40%;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 450px;
+  font-family: 'Open Sans', sans-serif;
 }
+
+
+h1 {
+  font-size: 40px; 
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
 
 #searchbox {
   position: absolute;
